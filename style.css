@@ -1,0 +1,82 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .main-container {
+    margin-top: 7%;
+    color: #f2f2f2;
+  }
+  
+  .upper-part {
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #searchInput {
+    width: 350px;
+    height: 35px;
+  }
+  
+  .btn {
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    background-color: black;
+    width: 350px;
+    height: 40px;
+  }
+  
+  #btn {
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    background-color: black;
+    width: 170px;
+    height: 40px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  /* tr:hover {
+    background-color: #e5e5e5;
+  } */
+  
+  .negative {
+    color: red;
+  }
+  
+  .positive {
+    color: rgb(85, 255, 85);
+  }
+  
+  .coin-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .coin-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  } 

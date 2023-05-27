@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="upper-part">
+        <input
+          style="
+            border: 1px solid #f2f2f2;
+            color: #f2f2f2;
+            background-color: black;
+          "
+          type="text"
+          id="searchInput"
+          placeholder="Search by Name or Symbol"
+        />
+        <button id="btn" onclick="search()">Search</button>
+        <button class="btn" onclick="sortByMarketCap()">
+          Sort by Market Cap
+        </button>
+        <button class="btn" onclick="sortByPercentageChange()">
+          Sort by Percentage Change
+        </button>
+      </div>
+      <table id="coinTable">
+        <!-- <thead>
+        <tr>
+          <th>Name</th>
+          <th>Symbol</th>
+          <th>Price (USD)</th>
+          <th>Total Volume</th>
+          <th>24h Change</th>
+          <th>Market Cap</th>
+        </tr>
+      </thead> -->
+        <tbody id="coinTableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html> 
